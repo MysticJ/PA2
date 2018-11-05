@@ -21,5 +21,9 @@ int main(){
   kun2->gainExperience(600);  
   cout<<kun1->getName()<<"\t"<<kun1->getHP()<<"\t"<<kun1->getAttack()<<"\t"<<
     kun1->getDefense()<<"\t"kin1->getLevel()<<endl;
+  
+  Kun* baby=kun1+kun2;
+  //print kun details
   return 0;
+  
 }
